@@ -8,9 +8,9 @@ const Header = () => {
       getCategories().then((newCategories) => setCategories(newCategories));
     }, []);
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-3 lg:px-10 mb-4 lg:mb-8">
       <div className="border-b w-full inline-block border-black py-8">
-        <div className="md: float-left block">
+        <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-black">
               Out<span className="text-[#c30010]">W</span>orld
